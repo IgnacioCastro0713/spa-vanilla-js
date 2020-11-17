@@ -4,7 +4,7 @@
   "description": "spa vanilla js example",
   "main": "index.js",
   "scripts": {
-    "tailwind:build": "npx tailwindcss build assets/css/tailwind.css -o assets/css/tailwind.bundle.css",
+    "tailwind:build": "npx tailwindcss build public/assets/css/tailwind.css -o public/assets/css/tailwind.bundle.css",
     "start": "node config/server.js"
   },
   "keywords": [],

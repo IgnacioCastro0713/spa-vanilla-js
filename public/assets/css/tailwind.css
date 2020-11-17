@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: "proxima-nova";
-    src: url(./assets/fonts/proxima-nova-soft-light-webfont.woff);
+    src: url(../fonts/proxima-nova-soft-light-webfont.woff);
     font-weight: 300;
 }
 

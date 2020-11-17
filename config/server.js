@@ -5,7 +5,7 @@ const http = require("http"),
 port = process.argv[2] || 8888;
 
 http.createServer(function (request, response) {
-
+  console.log(`${request.method} ${request.url}`);
   let uri = url.parse(request.url).pathname
     , filename = path.join(process.cwd(), uri);
 
